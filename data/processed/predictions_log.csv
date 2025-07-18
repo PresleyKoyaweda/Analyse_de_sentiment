@@ -1,0 +1,25 @@
+id_tweet,timestamp,tweet,label,proba_positive
+e3ac67ee-6385-11f0-908d-c8154ea7b060,2025-07-17T23:18:35.002235,Absolutely love this product! It exceeded my expectations.,Positif,0.7373989079103997
+e9d95e63-6385-11f0-a5c7-c8154ea7b060,2025-07-17T23:18:45.362237,"Customer service was fantastic – quick, helpful, and polite.",Positif,0.609407496551643
+f1b8adfa-6385-11f0-9bd6-c8154ea7b060,2025-07-17T23:18:58.569778,The quality is top-notch. Highly recommend it!,Positif,0.5921511095398867
+f7a5f7a3-6385-11f0-ab58-c8154ea7b060,2025-07-17T23:19:08.513475,Great value for the price. I'm definitely buying again.,Positif,0.799613236456579
+fd23999d-6385-11f0-ad85-c8154ea7b060,2025-07-17T23:19:17.725430,Fast delivery and the packaging was perfect.,Positif,0.589601035932087
+02692ca6-6386-11f0-b6cc-c8154ea7b060,2025-07-17T23:19:26.570000,Super intuitive and easy to use. Great user experience.,Positif,0.8507088688603824
+07a5054b-6386-11f0-b191-c8154ea7b060,2025-07-17T23:19:35.350817,I was impressed by the sleek design and performance.,Négatif,0.4803172032625071
+0d137b4e-6386-11f0-8434-c8154ea7b060,2025-07-17T23:19:44.463342,"Reliable, durable, and works like a charm every time.",Négatif,0.4266007486197016
+12ae8611-6386-11f0-87cb-c8154ea7b060,2025-07-17T23:19:53.868033,Amazing innovation. This product changed my workflow!,Positif,0.754849066322022
+1805fc65-6386-11f0-a735-c8154ea7b060,2025-07-17T23:20:02.829834,Best purchase I've made this year. Totally worth it.,Positif,0.6767148388398881
+1de58659-6386-11f0-9265-c8154ea7b060,2025-07-17T23:20:12.683426,Really disappointed – the product broke after two uses.,Négatif,0.3093164636872311
+23796f39-6386-11f0-a411-c8154ea7b060,2025-07-17T23:20:22.041375,"Terrible customer support, no response at all.",Négatif,0.4281109132251047
+2883fd0d-6386-11f0-933e-c8154ea7b060,2025-07-17T23:20:30.499150,Did not match the description. Very misleading.,Négatif,0.4118205392082245
+2db804f8-6386-11f0-8334-c8154ea7b060,2025-07-17T23:20:39.228748,Waste of money. I regret buying this.,Négatif,0.3318181797296485
+3298d2e2-6386-11f0-99c9-c8154ea7b060,2025-07-17T23:20:47.412912,Shipping was late and item was damaged on arrival.,Négatif,0.2967572874371661
+37be268f-6386-11f0-9744-c8154ea7b060,2025-07-17T23:20:56.046145,Difficult to use and poorly documented.,Négatif,0.4084964684528583
+3d292c58-6386-11f0-a841-c8154ea7b060,2025-07-17T23:21:05.136136,"The design looks cheap and the materials feel fragile.""",Négatif,0.3004339128698235
+421d0a3d-6386-11f0-89fb-c8154ea7b060,2025-07-17T23:21:13.445228,It keeps crashing. Unstable and unreliable.,Positif,0.8309428023770432
+47926910-6386-11f0-9459-c8154ea7b060,2025-07-17T23:21:22.603035,Poor performance and zero improvement over previous version.,Négatif,0.1859090451481034
+4d520388-6386-11f0-9ca3-c8154ea7b060,2025-07-17T23:21:32.247335,Bad experience overall. I won't recommend it to anyone.,Négatif,0.3397121487097027
+5958b6e0-63ee-11f0-8d8c-c8154ea7b060,2025-07-18T11:46:20.083785,Absolutely love it! Easy to set up and works perfectly.,Positif,0.5648046209830727
+64de05b1-63ee-11f0-96f6-c8154ea7b060,2025-07-18T11:46:39.412369,"Great value for the price, exceeded my expectations.",Positif,0.725997494040338
+6f4500bf-63ee-11f0-a1b0-c8154ea7b060,2025-07-18T11:46:56.864479,Stopped working after just two weeks – very disappointed.,Négatif,0.3195999963938979
+77a29407-63ee-11f0-8096-c8154ea7b060,2025-07-18T11:47:10.899507,"Looks good, but performance is very poor.",Négatif,0.2699227833231897

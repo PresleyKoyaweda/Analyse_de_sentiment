@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\Perso\Analyse sentiments\src\train.py", line 68, in <module>
+    joblib.dump(model, "models/logreg_tfidf_final.pkl")
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\joblib\numpy_pickle.py", line 552, in dump
+    with open(filename, 'wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/logreg_tfidf_final.pkl'

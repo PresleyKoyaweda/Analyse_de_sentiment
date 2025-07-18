@@ -1,0 +1,27 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-07-15T02:38:39.693719Z",
+  "program":  "D:\\Perso\\Analyse sentiments\\src\\train.py",
+  "codePath":  "train.py",
+  "email":  "gpresleyk@gmail.com",
+  "root":  "D:\\Perso\\Analyse sentiments\\src",
+  "host":  "KGP_First",
+  "executable":  "C:\\Users\\gpres\\anaconda3\\python.exe",
+  "codePathLocal":  "train.py",
+  "cpu_count":  10,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "262142947328",
+      "used":  "53658177536"
+    }
+  },
+  "memory":  {
+    "total":  "16857817088"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  12
+  }
+}

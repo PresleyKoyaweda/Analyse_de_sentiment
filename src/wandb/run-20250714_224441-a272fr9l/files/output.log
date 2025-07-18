@@ -1,0 +1,21 @@
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "D:\Perso\Analyse sentiments\src\train.py", line 71, in <module>
+    wandb.save(model_path)
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 391, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 449, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 436, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 2074, in save
+    return self._save(
+           ^^^^^^^^^^^
+  File "C:\Users\gpres\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 2133, in _save
+    target_path.symlink_to(source_path)
+  File "C:\Users\gpres\anaconda3\Lib\pathlib.py", line 1198, in symlink_to
+    os.symlink(target, self, target_is_directory)
+OSError: [WinError 1314] Le client ne dispose pas d’un privilège nécessaire: 'D:\\Perso\\Analyse sentiments\\models\\logreg_tfidf_final.pkl' -> 'D:\\Perso\\Analyse sentiments\\src\\wandb\\run-20250714_224441-a272fr9l\\files\\models\\logreg_tfidf_final.pkl'
