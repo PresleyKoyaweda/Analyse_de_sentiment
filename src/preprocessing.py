@@ -5,11 +5,13 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import TweetTokenizer
 
-# ✅ Télécharger les stopwords si nécessaire
-try:
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("stopwords")
+import nltk
+
+for resource in ["stopwords", "wordnet", "omw-1.4"]:
+    try:
+        nltk.data.find(f"corpora/{resource}")
+    except LookupError:
+        nltk.download(resource)
 
 # 📌 Initialisations
 lemmatizer = WordNetLemmatizer()
