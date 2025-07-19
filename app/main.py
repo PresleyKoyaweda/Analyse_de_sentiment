@@ -61,7 +61,7 @@ if page == PAGE_ANALYSE:
     """)
     
     with st.form("formulaire"):
-        tweet = st.text_area("💬 Entrez un avis ou un tweet :", height=100, placeholder="Ex: I really love this product, it changed my life!")
+        tweet = st.text_area("💬 Entrez un commentaire comme avis sur un produit/marqque ou même service offert par une entreprise:", height=100, placeholder="Ex: I really love this product, it changed my life!")
         submit = st.form_submit_button("Analyser")
 
     if submit and tweet:
@@ -142,8 +142,8 @@ elif page==PAGE_MONITORING:
 
     # Dernier point en bleu
     if not df_log.empty:
-        ax.scatter(x_pos.iloc[-1], y_neg.iloc[-1], c="blue", s=150, edgecolor="black", label="Dernier tweet")
-        ax.annotate("Dernier tweet", (x_pos.iloc[-1] + 0.01, y_neg.iloc[-1]), fontsize=10, color="blue")
+        ax.scatter(x_pos.iloc[-1], y_neg.iloc[-1], c="blue", s=150, edgecolor="black", label="Dernier commentaire")
+        ax.annotate("Dernier commentaire", (x_pos.iloc[-1] + 0.01, y_neg.iloc[-1]), fontsize=10, color="blue")
 
     # Mise en forme
     ax.set_xlabel("Probabilité que ce soit positif")
